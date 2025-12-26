@@ -1,4 +1,4 @@
-# EEG-seizure-detection-DNN
+# EEG-seizure-detection-pipeline
 
 the goal is to seizure event detection from multichannel EEG recordings by transforming raw data (biomedical signals) into meaningful features and training a supervised classifier.
 
