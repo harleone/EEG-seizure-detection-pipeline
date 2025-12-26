@@ -1,11 +1,11 @@
-# EEG-seizure-detection-pipeline
+## EEG-seizure-detection-pipeline
 
 the goal is to seizure event detection from multichannel EEG recordings by transforming raw data (biomedical signals) into meaningful features and training a supervised classifier.
 
 the pipeline processes raw EEG (EDF format) extracts frequency-domain features using bandpower analysis, assigns window-level seizure labels, and evaluates a classification model using robust statistical metrics.
 
 
-#📌 Project Objectives
+## 📌 Project Objectives
 Load and preprocess raw EEG signals
 
 Segment EEG into overlapping temporal windows
@@ -19,7 +19,7 @@ Train and evaluate a seizure detection model
 Visualize signals, features, and performance metrics
 
 
-#🔬 Dataset
+## 🔬 Dataset
 Source: CHB-MIT Scalp EEG Database
 
 Format: EDF (European Data Format)
@@ -33,7 +33,7 @@ Annotations: Seizure start and end times
 ⚠️ The dataset is not included in this repository due to licensing restrictions.
 
 
-#⚙️ Methods
+## ⚙️ Methods
 1. Signal Processing
 Bandpass filtering (0.5–40 Hz)
 
@@ -71,7 +71,7 @@ Stratified train/test split
 
 Evaluation metrics beyond accuracy due to class imbalance
 
-#📊 Results
+## 📊 Results
 Metric                Value
 
 ROC AUC               ~0.91
@@ -83,7 +83,7 @@ Sensitivity (Recall+) ~0.67
 Accuracy              ~0.92
 
 
-#📈 Visualizations
+## 📈 Visualizations
 Raw EEG signal plots
 
 Bandpower distributions
@@ -93,7 +93,7 @@ ROC and Precision-Recall curves
 Confusion matrix
 
 
-#🧪 Statistical Analysis
+## 🧪 Statistical Analysis
 Welch’s t-test for feature comparison
 
 Multiple hypothesis correction (FDR)
@@ -101,7 +101,7 @@ Multiple hypothesis correction (FDR)
 Feature importance via model coefficients
 
 
-#📚 Technologies Used
+## 📚 Technologies Used
 Python
 
 NumPy / SciPy
@@ -115,7 +115,7 @@ Statsmodels
 Matplotlib
 
 
-#🚀 Future Improvements
+## 🚀 Future Improvements
 Deep learning models (CNN/LSTM on raw signals)
 
 Multi-patient generalization
@@ -125,7 +125,7 @@ Class imbalance mitigation (SMOTE, focal loss)
 Temporal models with sequential context
 
 
-#👤 Author
+## 👤 Author
 
 Harpreet Singh
 
